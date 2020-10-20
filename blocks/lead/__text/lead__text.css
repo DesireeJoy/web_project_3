@@ -1,0 +1,26 @@
+.lead__text {
+  text-align: left;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .lead__text {
+    font-size: 10px;
+    min-width: 183px;
+    min-height: 14px;
+    font-size: 10px;
+    padding-left: 16px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .lead__text {
+    font-size: 10px;
+    min-width: 183px;
+    min-height: 14px;
+    padding-left: 16px;
+  }
+}
