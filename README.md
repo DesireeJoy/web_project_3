@@ -1,9 +1,10 @@
 # Project 3: From Portland to Portland with Yandex Bootcamp
 
-### Overview
-Use a figma based design brief and create a responsive design based on it. I used flex, grid and media queries to achieve these goals
+## Overview
+Use a figma based design brief and create a responsive design based on it. 
+I used flex, grid and media queries to achieve these goals
 
-## Example
+### Example
 
 ```bash
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
