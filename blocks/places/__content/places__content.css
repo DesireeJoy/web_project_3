@@ -1,11 +1,21 @@
 .places__content {
-  width: 100%;
+  max-width: 928px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 40px;
   grid-row-gap: 48px;
   margin: 0 0 80px;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .places__content {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 0;
+    grid-row-gap: 48px;
+  }
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .places__content {
     grid-template-columns: auto;

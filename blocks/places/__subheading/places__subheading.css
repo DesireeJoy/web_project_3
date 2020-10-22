@@ -1,9 +1,11 @@
 .places__subheading {
   color: #aaaaaa;
   letter-spacing: 0.2em;
-  text-align: 0;
   font-size: 12px;
   line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .places__subheading {
