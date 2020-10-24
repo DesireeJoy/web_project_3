@@ -12,10 +12,6 @@
   text-decoration: none;
 }
 
-.cover__link:hover {
-  opacity: 0.5;
-}
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .cover__link {
     min-height: 200px;
