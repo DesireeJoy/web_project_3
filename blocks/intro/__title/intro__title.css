@@ -2,6 +2,7 @@
   font-size: 54px;
   line-height: 1.07;
   margin-top: 92px;
+  font-weight: 900;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .intro__title {
