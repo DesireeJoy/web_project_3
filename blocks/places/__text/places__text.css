@@ -4,13 +4,13 @@
   word-wrap: break-word;
 }
 
-@media only screen and (min-device-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .places__text {
     line-height: 1.67;
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .places__text {
     margin: 0 16px;
   }
