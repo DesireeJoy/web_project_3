@@ -2,9 +2,10 @@
 @import url("./__title/lead__title.css");
 @import url("./__subtitle/lead__subtitle.css");
 @import url("./__text/lead__text.css");
+@import url("./__figure/lead__figure.css");
 
 .lead {
   max-width: 984px;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
 }
