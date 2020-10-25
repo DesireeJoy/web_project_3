@@ -5,6 +5,7 @@
 @import url("./__text/places__text.css");
 @import url("./__link/places__link.css");
 @import url("./__subheading/places__subheading.css");
+@import url("./__paragraph/places__paragraph.css");
 
 .places {
   padding: 0;
