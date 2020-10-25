@@ -11,9 +11,10 @@
   max-width: 984px;
 }
 
-@media screen and and (min-device-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
     margin: 34px 48px 0 48px;
+    min-width: 928px;
   }
 }
 
