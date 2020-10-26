@@ -8,9 +8,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
   .lead__text {
-    font-size: 10px;
     min-width: 183px;
-    min-height: 14px;
     padding-left: 16px;
   }
 }
