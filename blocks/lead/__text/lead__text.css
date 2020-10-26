@@ -4,9 +4,23 @@
   line-height: 140%;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  margin: 0;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+@media screen and (max-width: 1023px) {
+  .lead__text {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 765) {
+  .lead__text {
+    margin-left: 16 px;
+    min-width: 183px;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
   .lead__text {
     min-width: 183px;
     padding-left: 16px;
