@@ -10,14 +10,6 @@
 @media screen and (max-width: 1023px) {
   .lead__text {
     margin-left: 24px;
-  }
-}
-
-@media screen and (max-width: 765) {
-  .lead__text {
-    margin-left: 16 px;
-    min-width: 183px;
-  }
 }
 
 @media only screen and (max-device-width: 767px) {
