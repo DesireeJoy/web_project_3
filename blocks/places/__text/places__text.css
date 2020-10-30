@@ -1,21 +1,19 @@
+/* Everything above 1279 */
 .places__text {
   font-size: 18px;
-  line-height: 1.62;
   word-wrap: break-word;
+  line-height: 1.67;
 }
 
-@media only screen and (min-width: 1280px) {
-  .places__text {
-    line-height: 1.67;
-  }
-}
-@media only screen and (max-width: 1024px) {
+/*Second Smallest */
+@media only screen and (max-width: 1023px) {
   .places__text {
     font-size: 16px;
     line-height: 26.08px;
   }
 }
 
+/* Smallest Size */
 @media only screen and (max-width: 767px) {
   .places__text {
     margin: 0 16px;
